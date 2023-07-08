@@ -8,6 +8,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 300px;
 }
 .nav-title{
     color:#181818;
@@ -43,4 +44,17 @@ nav a {
     font-weight: 700;
     color: lightyellow;
     padding: 15px 33px;
+}
+/* header related style */
+.header{
+    background-color: aquamarine;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .me{
+    width: 500px;
+    
 }
