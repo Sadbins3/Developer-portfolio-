@@ -154,11 +154,33 @@ margin: 30px 10px;
 /* footer style */
 footer{
     display: flex;
-    background: #FFF8F3;
+    gap: 100px;
+    background: aquamarine;
     padding: 130px 200px;
     margin-top: 120px;
 }
 footer a>img{
     height: 35px;
     width: 35px;
+    margin-right: 25px;
 }
+.foter-culam{
+    width: 50%;
+}
+.section-tile{
+    text-align: center
+}
+
+.contact input[type="text"], .contact input[type="email"],
+.contact input[type="password"],
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: white;
+    border: 0px;
+    width: 100%;
+}
+
